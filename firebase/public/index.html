@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input[type=text] {
+    
+    padding: 8px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 50%;
+    border: 1px solid #333;
+    box-shadow: 4% #444;
+    padding: 5%;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    
+  }
+
+  
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(29, 15, 155);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(24, 34, 185);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+    </style>
+  </head>
+  <body>
+      <center>
+          <div class="container">
+              <h1>Add Services</h1>
+              <form>
+                  
+                  <input type="text" id="fname" placeholder="name"><br>
+                  <input type="text" id="category_id" placeholder="category_id"><br>
+                  <input type="text" id="name_ar" placeholder="name_ar"><br>
+                  <input type="text" id="name_en" placeholder="name_en"><br>
+                  <input type="text" id="price" placeholder="price"><br>
+                  <input type="text" id="quantity" placeholder="quantity"><br>
+                  <button class="favorite styled" type="button" id="add">
+                      Add Service
+                  </button>
+              </form>
+          </div>
+
+      </center>
+         
+      <!-- <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+          import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+        
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          const firebaseConfig = {
+            apiKey: "AIzaSyBYj18qa9bgWeWI2HXrGNgrC_dzQ9RuZJ4",
+            authDomain: "pointofsaleclicksystem.firebaseapp.com",
+            databaseURL: "https://pointofsaleclicksystem-default-rtdb.firebaseio.com",
+            projectId: "pointofsaleclicksystem",
+            storageBucket: "pointofsaleclicksystem.appspot.com",
+            messagingSenderId: "749001411348",
+            appId: "1:749001411348:web:f7550a053411db070e1001",
+            measurementId: "G-ZC7KV0EQN4"
+          };
+        
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+          const analytics = getAnalytics(app);
+        </script> -->
+      
+  
+
+
+
+
+  </body>
+</html>
